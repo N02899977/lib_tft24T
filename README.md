@@ -18,14 +18,14 @@ You need:
 -  python2.7
 -  PIL installed
 -  SPIDEV installed: 
-      wget https://github.com/Gadgetoid/py-spidev/archive/master.zip
-      unzip master.zip
-      rm master.zip
-      cd py-spidev-master
-      sudo python setup.py install
-      cd ..
+      <p>wget https://github.com/Gadgetoid/py-spidev/archive/master.zip</p>
+      <p>unzip master.zip</p>
+      <p>rm master.zip</p>
+      <p>cd py-spidev-master</p>
+      <p>sudo python setup.py install</p>
+      <p>cd ..</p>
 -  SPI enabled (Module blacklist? Device tree?)
-      (In GUI) Preferences > RPi Configuration > Interfaces > Enable SPI radio box
+      <p>(In GUI) Preferences > RPi Configuration > Interfaces > Enable SPI radio box</p>
 
 For the LCD you need to connect this logic:
 -  MOSI
