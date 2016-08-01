@@ -8,10 +8,10 @@ GND           GND
 CE            CE0
 RESET         #18
 D/C           #22
-SDO/MOSI      MOSI
+SDI/MOSI      MOSI
 SCK           SCLK
 LED           #23
-SDI/MISO      n/c
+SDO/MISO      n/c
 
 t_CLK         SCLK
 t_CS          CE1
