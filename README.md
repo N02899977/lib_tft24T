@@ -17,8 +17,15 @@ You need:
 -  Raspberry Pi (duh), any version, and I used stock current Raspbian on a 256k early Rpi.
 -  python2.7
 -  PIL installed
--  SPIDEV installed
+-  SPIDEV installed: 
+      wget https://github.com/Gadgetoid/py-spidev/archive/master.zip
+      unzip master.zip
+      rm master.zip
+      cd py-spidev-master
+      sudo python setup.py install
+      cd ..
 -  SPI enabled (Module blacklist? Device tree?)
+      (In GUI) Preferences > RPi Configuration > Interfaces > Enable SPI radio box
 
 For the LCD you need to connect this logic:
 -  MOSI
