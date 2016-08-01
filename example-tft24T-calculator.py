@@ -1,14 +1,15 @@
 
-import Image
-import ImageDraw
-import ImageFont
+from PIL import Image
+from PIL import ImageDraw
+from PIL import ImageFont
 
 from lib_tft24T import TFT24T
 import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 
-import spidev
+# To install spidev: see Readme.md spidev installation
+import spidev 
 from time import sleep
 
 DC = 22
